@@ -13,27 +13,42 @@
     <main class="main">
       <section class="first-screen">
         <div class="container">
-
-          <div  class="first-screen__wrapper">
-
-            <div  class="first-screen__content">
-              <div>
-                <button>Sell</button>
-                <button>Buy</button>
+          <div class="first-screen__wrapper">
+            <div class="first-screen__content">
+              <div class="first-screen__toggler">
+                <label class="first-screen__toggler-item">
+                  <input
+                    class="first-screen__toggler-item-input"
+                    type="radio"
+                    id="firstScreenSell"
+                    name="firstScreenToggler"
+                    checked
+                  />
+                  <span class="first-screen__toggler-item-text">Sell</span>
+                </label>
+                <label class="first-screen__toggler-item">
+                  <input
+                    class="first-screen__toggler-item-input"
+                    type="radio"
+                    id="firstScreenbuy"
+                    name="firstScreenToggler"
+                  />
+                  <span class="first-screen__toggler-item-text">Buy</span>
+                </label>
               </div>
-  
+
               <h1 class="first-screen__title">Secure, Track, & Grow Your Crypto</h1>
-  
+
               <p class="first-screen__description">
-                Experience the future of digital finance with our powerful, user-friendly app designed
-                to keep your investments safe and maximize your gains.
+                Experience the future of digital finance with our powerful, user-friendly app
+                designed to keep your investments safe and maximize your gains.
               </p>
-  
+
               <div class="first-screen__buttons">
-                <button class="button">Download the app</button>
-                <button class="button">Join our discord</button>
+                <button class="button button_primary">Download the app</button>
+                <button class="button button_light">Join our discord</button>
               </div>
-  
+
               <ul class="first-screen__advantages">
                 <li class="first-screen__advantages-item">
                   <div class="first-screen__advantages-item-value">99.9%</div>
@@ -49,8 +64,52 @@
                 </li>
               </ul>
             </div>
+
+            <figure class="first-screen__figure">
+              <img
+                class="first-screen__figure-image"
+                src="./assets/first-screen-image.svg"
+                alt="first-screen-image"
+              />
+            </figure>
           </div>
-          
+
+          <div class="first-screen__logos">
+            <figure class="first-screen__logos-item">
+              <img
+                class="first-screen__logos-item-image"
+                src="./assets/fs-logo-1.svg"
+                alt="fs logo"
+              />
+            </figure>
+            <figure class="first-screen__logos-item">
+              <img
+                class="first-screen__logos-item-image"
+                src="./assets/fs-logo-2.svg"
+                alt="fs logo"
+              />
+            </figure>
+            <figure class="first-screen__logos-item">
+              <img
+                class="first-screen__logos-item-image"
+                src="./assets/fs-logo-3.svg"
+                alt="fs logo"
+              />
+            </figure>
+            <figure class="first-screen__logos-item">
+              <img
+                class="first-screen__logos-item-image"
+                src="./assets/fs-logo-4.svg"
+                alt="fs logo"
+              />
+            </figure>
+          </div>
+
+          <div class="first-screen__circle">
+            <div class="first-screen__circle-outer">
+              <img class="first-screen__circle-outer-inner" src="./assets/fs-circle.svg" alt="fs-circle" />
+            </div>
+          </div>
         </div>
       </section>
     </main>

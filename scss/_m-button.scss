@@ -1,0 +1,25 @@
+.button {
+  position: relative;
+  display: inline-block;
+  padding: 14px 24px;
+  box-sizing: border-box;
+  font-weight: 500;
+  font-size: 15px;
+  color: #dddff6;
+  border: 2px solid rgba($color: #ffffff, $alpha: 0.2);
+  border-radius: 8px;
+  padding: 16px 24px;
+  background-image: radial-gradient(
+    rgba($color: #6e4afc, $alpha: 0.3) 0%,
+    rgba($color: #6e4afc, $alpha: 0) 100%
+  );
+  cursor: pointer;
+
+  &_primary {
+    background-color: #432f93;
+  }
+
+  &_light {
+    background-color: rgba($color: #6e4afc, $alpha: 0);
+  }
+}
