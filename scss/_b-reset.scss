@@ -13,13 +13,13 @@ body {
   margin: 0;
   overflow-y: scroll;
   color: #ffffff;
+  background-color: #000000;
+  background-repeat: no-repeat;
   background-image: radial-gradient(
     27% 65% at 47% 15%,
     rgba($color: #6e4afc, $alpha: 0.4) 0%,
     rgba($color: #6e4afc, $alpha: 0) 100%
   );
-  background-color: #000000;
-  background-repeat: no-repeat;
 }
 
 a,

@@ -12,9 +12,9 @@ body {
   margin: 0;
   overflow-y: scroll;
   color: #ffffff;
-  background-image: radial-gradient(27% 65% at 47% 15%, rgba(110, 74, 252, 0.4) 0%, rgba(110, 74, 252, 0) 100%);
   background-color: #000000;
   background-repeat: no-repeat;
+  background-image: radial-gradient(27% 65% at 47% 15%, rgba(110, 74, 252, 0.4) 0%, rgba(110, 74, 252, 0) 100%);
 }
 
 a,
@@ -108,8 +108,8 @@ img {
   padding: 4.5%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(110, 74, 252, 0.5)), to(rgba(110, 74, 252, 0)));
-  background-image: linear-gradient(0deg, rgba(110, 74, 252, 0.5) 0%, rgba(110, 74, 252, 0) 100%);
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(110, 74, 252, 0.3)), to(rgba(110, 74, 252, 0)));
+  background-image: linear-gradient(0deg, rgba(110, 74, 252, 0.3) 0%, rgba(110, 74, 252, 0) 100%);
   -webkit-transform: translate3d(-50%, -50%, 0);
           transform: translate3d(-50%, -50%, 0);
   color: #6e4afc;
@@ -122,8 +122,8 @@ img {
   right: 0;
   bottom: 0;
   z-index: -1;
-  border-radius: 100px;
-  background-color: rgba(110, 74, 252, 0.5);
+  border: 32px solid #6e4afc;
+  border-radius: 1000px;
   -webkit-filter: blur(68px);
           filter: blur(68px);
 }
