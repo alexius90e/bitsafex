@@ -1,0 +1,56 @@
+.first-screen {
+  padding: 159px 0 72px;
+
+  &__content {
+    max-width: 556px;
+  }
+
+  &__title {
+    max-width: 452px;
+    margin: 0 0 32px;
+    font-weight: 500;
+    font-size: 61px;
+    line-height: 95%;
+    letter-spacing: -0.04em;
+  }
+
+  &__description {
+    max-width: 366px;
+    margin: 0 0 34px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 144%;
+    color: #dedcef;
+  }
+
+  &__buttons {
+    margin: 0 0 34px;
+  }
+
+  &__advantages {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+
+    &-item {
+      flex: 0 1 138px;
+
+      &-value {
+        margin: 0 0 3px;
+        font-weight: 500;
+        font-size: 24px;
+        letter-spacing: -0.02em;
+        color: #fff;
+      }
+
+      &-text {
+        font-weight: 400;
+        font-size: 14px;
+        color: #dedcef;
+      }
+    }
+  }
+}
