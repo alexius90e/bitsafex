@@ -13,10 +13,13 @@
   &__circle {
     position: absolute;
     top: 168px;
-    left: 20px;
-    right: 20px;
+    left: 50%;
     bottom: 112px;
     z-index: 1;
+    display: block;
+    max-width: calc(100vw - 40px);
+    aspect-ratio: 1 / 1;
+    transform: translateX(-50%);
 
     &-outer {
       position: absolute;
